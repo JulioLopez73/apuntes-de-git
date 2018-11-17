@@ -1,5 +1,5 @@
 ### git log
-Muestra el historial de commits
+Muestra todo el historial de commits del proyecto.
 
 `git log --oneline` Muestra los commits en una lista.
 
