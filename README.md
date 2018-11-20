@@ -19,5 +19,8 @@ git config --global core.editor vim
 git config --list
 
 ```
+## Aportes desde otra cuenta
+Este texto fue aportado desde la cuenta danielromeroauk
 
-Esta línea fue creada en la rama master
+## Varios repositorios remotos
+Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos.
