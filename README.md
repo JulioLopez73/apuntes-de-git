@@ -25,3 +25,12 @@ Este texto fue aportado desde la cuenta danielromeroauk
 ## Varios repositorios remotos
 Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos.
 
+## Configuración SSH
+1. Creamos una carpeta llamada `llaves-ssh` en la ruta de nuestro directorio principal de linux
+2. Ejecutamos el comando `ssh-keygen -t rsa -C "mi-correo@ejemplo.com"`.
+El correo debe de ser el mismo con el que nos registramos en Github para evitar posibles problemas.
+Dejamos el passphrase vacío y damos enter.
+Cuando nos pida la ruta escribimos `/home/usuario/llaves-ssh/github_rsa`.
+3. Iniciamos ssh-agent en background ejecutando el comando `eval "$(ssh-agent -s)"`.
+4. Agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh-add /home/usuario/llaves-ssh/github_rsa`.
+5 . Desde ahora podemos hacer pull y push sin que Github nos esté pidiendo los datos de acceso.
