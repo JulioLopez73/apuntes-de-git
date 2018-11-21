@@ -25,4 +25,3 @@ Este texto fue aportado desde la cuenta danielromeroauk
 ## Varios repositorios remotos
 Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos.
 
-Esta línea se agregó desde un equipo linux conectando al repositorio local con Github a través de https.
