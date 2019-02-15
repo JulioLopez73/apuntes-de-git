@@ -13,8 +13,8 @@ Sistema de control de versiones para el mantenimiento eficiente y confiable de a
 
 ### Cofigurando Git por primera vez
 ```
-git config --global user.name "Julio Lopez"
-git config --global user.email ju.lopez73@gmail.com
+git config --global user.name ""
+git config --global user.email 
 git config --global core.editor vim
 git config --list
 
